@@ -20,4 +20,6 @@ public interface UtilisateursService {
     Utilisateurs login(String email, String password);
     // Méthode de déconnexion d'un utilisateur
     void logout(Utilisateurs utilisateur);
+
+
 }
