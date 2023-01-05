@@ -22,8 +22,6 @@ public class Utilisateurs {
     private String email;
 
     private Long numero;
-
     private String password;
-
     private String image;
 }
