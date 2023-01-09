@@ -27,6 +27,18 @@ public class Tache {
     private
     Utilisateurs utilisateurs;
 
+    @ManyToOne
+    @JoinColumn(name = "salles_id")
+    private Salles salles;
+
+    public Salles getSalles() {
+        return salles;
+    }
+
+    public void setSalles(Salles salles) {
+        this.salles = salles;
+    }
+
     public Utilisateurs getUtilisateurs() {
         return utilisateurs;
     }
